@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    font-size: 8px;
+}
+.top .topleft {
+    font-weight: 700;
+}
+
+.top,
+.middleone {
+    background-color: #1F2937;
+}
+.middleoneleft h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.middleoneleft p {
+    font-size: 18px;
+}
+.middleoneleft button {
+    background-color: #3882F6;
+}
+
+.middletwotop {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.middletwobottom {
+    color: gray;
+    font-size: 10px;
+}
+
+.middlethree {
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.middlefour {
+    background-color: #3882F6;
+}
+
+.bottom {
+    background-color: #1F2937;
+}
