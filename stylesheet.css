@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    margin: 0;
 }
 ul {
     list-style-type: none;
@@ -50,3 +51,39 @@ ul {
 .bottom {
     background-color: #1F2937;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.topleft {
+    margin-left: 20px;
+}
+
+.topright ul{
+    display: flex;
+}
+
+.topright ul li {
+    padding: 8px;
+}
+
+.middleone {
+    display: flex;
+    flex: 1;
+}
+.middleoneleft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
